@@ -29,6 +29,7 @@ action :add do
                 :type => new_resource.type,
                 :exec => new_resource.exec
             })
+            cookbook 'lxde'
         end
 
         new_resource.updated_by_last_action(t.updated_by_last_action?)
