@@ -1,0 +1,7 @@
+name             'lxde'
+maintainer       'Djuri Baars'
+maintainer_email 'dsbaars@gmail.com'
+license          'MIT'
+description      'Manages lxde'
+long_description 'This cookbook is supposed to become useful in managing an LX Desktop Environment (LX). For now it only contains an LWRP for managing desktop entries.'
+version          '0.1.0'
